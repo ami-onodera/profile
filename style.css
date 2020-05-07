@@ -65,13 +65,17 @@ p {
   font-size: 25px;
 }
 
-.list-inline li:hover{
-  transition: ease all 2s;
-  background-color: rgba(70, 177, 201, 0.5);
+.list-inline a {
+  color: rgb(128, 79, 173);
 }
 
-.instagram-media {
+.list-inline a:hover {
+  transition: ease all .5s;
+  color: rgb(70, 177, 201);
+}
 
+.instagram-media instagram-media-rendered {
+  margin: 0 auto;
 }
 
 #legenda {
