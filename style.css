@@ -40,6 +40,16 @@ p {
   font-family: Open Sans, sans-serif;
 }
 
+a {
+  color: rgb(128, 79, 173);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(93, 189, 226);
+  text-decoration: none;
+}
+
 .img-round{
   border-radius: 50%;
 }
