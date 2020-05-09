@@ -5,23 +5,39 @@ body{
   background-color: rgb(234, 242, 255);
 }
 
-h1, h2 {
+h1 {
   color: rgb(128, 79, 173);
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   margin: auto;
+  font-size: 28px
+}
+
+h1 {
+  color: rgb(128, 79, 173);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  margin: auto;
+  font-size: 24px
 }
 
 h3 {
   color: rgb(48, 76, 137);
   font-family: Roboto Condensed, sans-serif;
   margin: 15px auto;
+  font-size: 20px;
+}
+
+h4 {
+  color: rgb(128, 79, 173);
+  font-family: Roboto Condensed, sans-serif;
+  margin: 15px auto;
+  font-size: 22px;
 }
 
 p {
   color: rgb(48, 76, 137);
   font-family: Open Sans, sans-serif;
-  margin: 30px auto;
 }
 
 .img-round{
@@ -45,18 +61,41 @@ p {
 }
 
 .container {
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
+  position:relative;
 }
 
 .card-white {
   background-color: white;
   text-align: center;
-  width: 650px;
+  width: 100%;
   margin: 10px auto;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(180, 205, 255, 0.2);
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.scrollspy-example{
+  position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
 }
 
 .list-inline li {
@@ -78,30 +117,4 @@ p {
   margin: 10px;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-  .card-white {
-    width: 650px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 550px;
-  }
-  .card-white {
-    width: 450px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-  .card-white {
-    width: 250px;
-  }
-}
+
