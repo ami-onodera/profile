@@ -35,9 +35,17 @@ h4 {
   font-size: 22px;
 }
 
+h5 {
+  color: rgb(128, 79, 173);
+  font-family: Roboto Condensed, sans-serif;
+  margin: 15px auto;
+  font-size: 18px;
+}
+
 p {
   color: rgb(48, 76, 137);
   font-family: Open Sans, sans-serif;
+  text-align: left;
 }
 
 a {
@@ -101,11 +109,24 @@ a:hover {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.scrollspy-example{
+.scrollspy-edu {
   position: relative;
     height: 200px;
     margin-top: .5rem;
     overflow: auto;
+}
+
+.scrollspy-xp {
+  position: relative;
+    height: 335px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+
+.scrollspy-xp li {
+  color: rgb(48, 76, 137);
+  font-family: Open Sans, sans-serif;
+  text-align: left;
 }
 
 .list-group-item.active {
