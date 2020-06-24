@@ -155,6 +155,15 @@ a:hover {
 
 #legenda {
   margin: 10px;
+  text-align: center;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 650px;
+    margin-bottom: 15;
 }
 
 @media (max-width: 960px) {
