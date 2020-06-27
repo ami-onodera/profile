@@ -73,10 +73,12 @@ a:hover {
   border-radius: 2px;
   padding: 10px 15px;
   margin: auto, 20px;
+  border-radius: 10px;
 }
 
 #button:hover {
   background-color: rgb(128, 79, 173);
+  border-radius: 10px;
 }
 
 .container {
